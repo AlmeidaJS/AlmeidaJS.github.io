@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Players - Mesa do Almeida</title>
+    <link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/">
+    <link rel="stylesheet" href="http://AlmeidaJS.github.io/CSS/style.css">
+    <link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css">
+
+    <script src="http://AlmeidaJS.github.io/JS/interação.js"></script>
+</head>
+
+<body>
+    <div id="tudo">
+        <header>
+            <div class="caixa">
+                <h1><img src="https://ibb.co/dWDgk5z" alt="Velho Anão lendo um Livro grosso de mágias"></h1>
+                <nav>
+                    <ul>
+                        <li><a href="http://AlmeidaJS.github.io/index.html">Home</a></li>
+                        <li><a href="http://AlmeidaJS.github.io/personagens.html">Personagens</a></li>
+                        <li><a href="http://AlmeidaJS.github.io/jogadores.html">Jogadores</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+       <main>
+            <div class="npc">
+                <h1>NPC's do Almeida</h1>
+                <ul class="personagens">
+                    <li id="thorku"  onclick="document.querySelector('footer').style.position = 'absolute'">
+                        <h2>Thorku Dunduur</h2>
+                        <a href="#informa-thorku"><img src="imagens/thorku.png" ></a>
+                        <p>Raça: Anão
+                        <br>Classe: Clérigo</p>
+                        
+                    </li>
+                    <li id="haltar">
+                        <h2>Haltar de Turi</h2>
+                        <img src="imagens/haltar.png">
+                        <p>Raça: Anão</p>
+                        <p>Classe: Paladino</p>
+                    </li>
+                    <li id="icaro" class="animated fadeInRight ">
+                        <h2>Icaro Pedyo Anar</h2>
+                        <img src="imagens/icaro.png">
+                        <p>Raça: Humano
+                        <br>Classe: Ladino</p>
+                        <p></p>
+                    </li>
+                    <li id="cleo">
+                        <h2>Cleo de Hemera</h2>
+                        <img src="imagens/cleo.png">
+                        <p>Raça: Golias
+                        <br>Classe: Paladino</p>
+                        <p></p>
+                    </li>
+                </ul>
+            </div>
+
+            <!--Dados do Personagem-->
+
+            <div class="ocultar">
+                <div id="informa-thorku">
+                    <h2>Clérigo da tempestade (Moradin/Kord)</h2>
+                    <table class="atributos">
+                        <tr>
+                            <th>For:</th>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <th>Des:</th>
+                            <td>13</td>
+                        </tr>
+                        <tr>
+                            <th>Con:</th>
+                            <td>19</td>
+                        </tr>
+                        <tr>
+                            <th>Int:</th>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <th>Sab:</th>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <th>Car:</th>
+                            <td>12</td>
+                        </tr>
+                    </table>
+                    <ul class="combate">
+                        <li class="iniciativa">iniciativa +1</li>
+                        <li class="armadura">Classe de Armadura<br>18</li>
+                    </ul>
+                    <ul class="Save">
+                        <li>For: +3</li>
+                        <li>Des: +1</li>
+                        <li>Con: +4</li>
+                        <li>Int: -1</li>
+                        <li class="prof">Sab: +8</li>
+                        <li class="prof">Car: +4</li>
+                    </ul>
+                    <p class="bordao">Que as fagulhas da forja de meu senhor guiem seus caminhos.</p>
+                    <p class="bordao">Um brinde... um brinde a Moradin!</p>
+                    <a href="#thorku"></a>
+                </div>
+                
+                <!--Fim Thorku-->
+
+                <div id="informa-haltar">
+                    <h2>Paladino de Moradin</h2>
+                    <table class="atributos">
+                        <tr>
+                            <th>For:</th>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <th>Des:</th>
+                            <td>13</td>
+                        </tr>
+                        <tr>
+                            <th>Con:</th>
+                            <td>19</td>
+                        </tr>
+                        <tr>
+                            <th>Int:</th>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <th>Sab:</th>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <th>Car:</th>
+                            <td>12</td>
+                        </tr>
+                    </table>
+                    <ul class="combate">
+                        <li class="iniciativa">iniciativa +1</li>
+                        <li class="armadura">Classe de Armadura<br>18</li>
+                    </ul>
+                    <ul class="Save">
+                        <li>For: +3</li>
+                        <li>Des: +1</li>
+                        <li>Con: +4</li>
+                        <li>Int: -1</li>
+                        <li class="prof">Sab: +8</li>
+                        <li class="prof">Car: +4</li>
+                    </ul>
+                    <p class="bordao">Que as fagulhas da forja de meu senhor guiem seus caminhos.</p>
+                    <p class="bordao">Um brinde... um brinde a Moradin!</p>
+                </div>
+                
+                <!--Fim Haltar-->
+
+                <div id="informa-icaro">
+                    <h2>Ladino</h2>
+                    <table class="atributos">
+                        <tr>
+                            <th>For:</th>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <th>Des:</th>
+                            <td>13</td>
+                        </tr>
+                        <tr>
+                            <th>Con:</th>
+                            <td>19</td>
+                        </tr>
+                        <tr>
+                            <th>Int:</th>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <th>Sab:</th>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <th>Car:</th>
+                            <td>12</td>
+                        </tr>
+                    </table>
+                    <ul class="combate">
+                        <li class="iniciativa">iniciativa +1</li>
+                        <li class="armadura">Classe de Armadura<br>18</li>
+                    </ul>
+                    <ul class="Save">
+                        <li>For: +3</li>
+                        <li>Des: +1</li>
+                        <li>Con: +4</li>
+                        <li>Int: -1</li>
+                        <li class="prof">Sab: +8</li>
+                        <li class="prof">Car: +4</li>
+                    </ul>
+                    <p class="bordao">Que as fagulhas da forja de meu senhor guiem seus caminhos.</p>
+                    <p class="bordao">Um brinde... um brinde a Moradin!</p>
+                </div>
+                
+                <!--Fim Icaro-->
+
+                <div id="informa-cleo">
+                    <h2>Paladina da Rainha de Rapina (Raven queen)</h2>
+                    <table class="atributos">
+                        <tr>
+                            <th>For:</th>
+                            <td>16</td>
+                        </tr>
+                        <tr>
+                            <th>Des:</th>
+                            <td>13</td>
+                        </tr>
+                        <tr>
+                            <th>Con:</th>
+                            <td>19</td>
+                        </tr>
+                        <tr>
+                            <th>Int:</th>
+                            <td>9</td>
+                        </tr>
+                        <tr>
+                            <th>Sab:</th>
+                            <td>20</td>
+                        </tr>
+                        <tr>
+                            <th>Car:</th>
+                            <td>12</td>
+                        </tr>
+                    </table>
+                    <ul class="combate">
+                        <li class="iniciativa">iniciativa +1</li>
+                        <li class="armadura">Classe de Armadura<br>18</li>
+                    </ul>
+                    <ul class="Save">
+                        <li>For: +3</li>
+                        <li>Des: +1</li>
+                        <li>Con: +4</li>
+                        <li>Int: -1</li>
+                        <li class="prof">Sab: +8</li>
+                        <li class="prof">Car: +4</li>
+                    </ul>
+                    <p class="bordao">Não demonstrem piedade pelos que sofrem e morrem, pois a morte é o término natural da vida.</p>
+                    <p class="bordao">Como um instrumento da Rainha de Rapina, é preciso punir a arrogância onde ela estiver.</p>
+                </div>
+                
+                <!--Fim Cleo-->
+                
+            </div>
+      </main>
+        <footer>
+            <img src="https://AlmeidaJS.github.io/imagens/dado.png">
+            <p>&copy; Copyright Rafael Almeida</p>
+        </footer>
+    </body>
+</html>

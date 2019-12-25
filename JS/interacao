@@ -1,4 +1,3 @@
-<script>
 var infoThorku;
 var infoHaltar;
 var infoIcaro;
@@ -51,4 +50,3 @@ function mostraCleo(){
     infoIcaro.classList.add("escondido");
     infoCleo.classList.remove("escondido");
 };
-</script>

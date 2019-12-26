@@ -150,6 +150,161 @@ ul.personagens{
     transition: 1s ease;
 }
 
+.mostra-thorku {
+    position: absolute;
+    top: 320px;
+    left: 0;
+    right: 0;
+    display: none;
+    transition: .5s ease;
+    background: linear-gradient(rgb(221, 197, 37)),(rgb(86, 170, 50));
+    width: 1080px;
+    margin: 25px;
+    border: 2px solid #000000;
+}
+
+.mostra-thorku #thorku-img{
+    float: left;
+    margin: 0 30px 0 0;
+}
+
+.mostra-thorku #fechar-thorku{
+    float: right;
+    margin: 0 0px 0 20px;
+}
+
+.mostra-thorku #fechar-thorku:active{
+    float: right;
+    margin: 0 0px 0 20px;
+    transform: scale(.8);
+}
+
+.mostra-thorku h1{
+    margin: 0 0px 30px 0;
+}
+
+.mostra-thorku h2{
+    margin: 0 0px 20px 0;
+}
+
+
+.mostra-haltar {
+    position: absolute;
+    top: 320px;
+    left: 0;
+    right: 0;
+    display: none;
+    transition: .5s ease;
+    background: linear-gradient(rgb(221, 197, 37)),(rgb(86, 170, 50));
+    width: 1080px;
+    margin: 25px;
+    border: 2px solid #000000;
+}
+
+.mostra-haltar #haltar-img{
+    float: left;
+    margin: 0 30px 0 0;
+}
+
+.mostra-haltar #fechar-haltar{
+    float: right;
+    margin: 0 0px 0 20px;
+}
+
+.mostra-haltar #fechar-haltar:active{
+    float: right;
+    margin: 0 0px 0 20px;
+    transform: scale(.8);
+}
+
+.mostra-haltar h1{
+    margin: 0 0px 30px 0;
+}
+
+.mostra-haltar h2{
+    margin: 0 0px 20px 0;
+}
+
+.mostra-icaro {
+    position: absolute;
+    top: 320px;
+    left: 0;
+    right: 0;
+    display: none;
+    transition: .5s ease;
+    background: linear-gradient(rgb(221, 197, 37)),(rgb(86, 170, 50));
+    width: 1080px;
+    margin: 25px;
+    border: 2px solid #000000;
+}
+
+.mostra-icaro #icaro-img{
+    float: left;
+    margin: 0 30px 0 0;
+}
+
+.mostra-icaro #fechar-icaro{
+    float: right;
+    margin: 0 0px 0 20px;
+}
+
+.mostra-icaro #fechar-icaro:active{
+    float: right;
+    margin: 0 0px 0 20px;
+    transform: scale(.8);
+}
+
+.mostra-icaro h1{
+    margin: 0 0px 30px 0;
+}
+
+.mostra-icaro h2{
+    margin: 0 0px 20px 0;
+}
+
+.mostra-cleo {
+    position: absolute;
+    top: 320px;
+    left: 0;
+    right: 0;
+    display: none;
+    transition: .5s ease;
+    background: linear-gradient(rgb(221, 197, 37)),(rgb(86, 170, 50));
+    width: 1080px;
+    margin: 25px;
+    border: 2px solid #000000;
+}
+
+.mostra-cleo #cleo-img{
+    float: left;
+    margin: 0 30px 0 0;
+}
+
+.mostra-cleo #fechar-cleo{
+    float: right;
+    margin: 0 0px 0 20px;
+}
+
+.mostra-cleo #fechar-cleo:active{
+    float: right;
+    margin: 0 0px 0 20px;
+    transform: scale(.8);
+}
+
+.mostra-cleo h1{
+    margin: 0 0px 30px 0;
+}
+
+.mostra-cleo h2{
+    margin: 0 0px 20px 0;
+}
+
+.atributos{
+    text-align: left;
+    border: 2px solid #000000;
+
+}
+
 form{
     margin: 40px 0;
 }
@@ -189,26 +344,6 @@ main{
     width: 100%;
 }
 
-.escondido{
-    display: none;
-}
-
-#informa-thorku, #informa-haltar, #informa-icaro, #informa-cleo{
-    vertical-align: top;
-    box-sizing: border-box;
-    border: 2px solid #000000;
-    border-radius: 10px;
-    width: 690px;
-    margin: 0px 20% 20px;
-    margin-top: 0%;
-}
-
-.escondido h2{
-text-align: center;
-font-size: 24px;
-
-}
-
 .personagens a:active{
     transform: 0;
     transition: 1s scroll;
@@ -221,7 +356,7 @@ footer{
     background-size: 17% 100%;
     background-image: linear-gradient(to bottom, rgba(12, 12, 12, 0.431) 100%,rgba(0, 0, 0, 0.705) 100%);
     border: 0 ;
-    position: fixed;
+    position: absolute;
     width: 100%;
     bottom: 0;
     padding: 1rem;

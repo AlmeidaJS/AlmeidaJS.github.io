@@ -54,6 +54,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
         document.querySelector('#haltar').style.display= 'block';
         document.querySelector('#icaro').style.display= 'block';
         document.querySelector('#cleo').style.display= 'block';
+
+        document.querySelector('footer').style.position= 'fixed';
     })
 })
 
@@ -65,6 +67,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
         document.querySelector('#haltar').style.display= 'block';
         document.querySelector('#icaro').style.display= 'block';
         document.querySelector('#cleo').style.display= 'block';
+
+        document.querySelector('footer').style.position= 'fixed';
     })
 })
 
@@ -76,6 +80,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
         document.querySelector('#haltar').style.display= 'block';
         document.querySelector('#icaro').style.display= 'block';
         document.querySelector('#cleo').style.display= 'block';
+
+        document.querySelector('footer').style.position= 'fixed';
     })
 })
         
@@ -87,5 +93,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
         document.querySelector('#haltar').style.display= 'block';
         document.querySelector('#icaro').style.display= 'block';
         document.querySelector('#cleo').style.display= 'block';
+
+        document.querySelector('footer').style.position= 'fixed';
     })
 })        

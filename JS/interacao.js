@@ -18,6 +18,8 @@ function mostraThorku(){
     document.querySelector('#haltar').style.display= 'none';
     document.querySelector('#icaro').style.display= 'none';
     document.querySelector('#cleo').style.display= 'none';
+    
+    document.querySelector('footer').style.position= 'fixed';
 }
 
 function mostraHaltar(){
@@ -26,6 +28,8 @@ function mostraHaltar(){
     document.querySelector('#haltar').style.display= 'none';
     document.querySelector('#icaro').style.display= 'none';
     document.querySelector('#cleo').style.display= 'none';
+    
+    document.querySelector('footer').style.position= 'fixed';
 }
 
 function mostraIcaro(){
@@ -34,6 +38,8 @@ function mostraIcaro(){
     document.querySelector('#haltar').style.display= 'none';
     document.querySelector('#icaro').style.display= 'none';
     document.querySelector('#cleo').style.display= 'none';
+    
+    document.querySelector('footer').style.position= 'fixed';
 }
 
 function mostraCleo(){

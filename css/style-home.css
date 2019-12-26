@@ -11,7 +11,7 @@ html body {
     background-size: cover;
     width: 100%;
     overflow-x: hidden;
-    font-family: 'Bitter', serif;
+    font-family: 'Acme', sans-serif, 'Bitter', serif;
   }
 
 /*Inicio do cabeçalho*/

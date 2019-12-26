@@ -1,52 +1,91 @@
-var infoThorku;
-var infoHaltar;
-var infoIcaro;
-var infoCleo;
-
 window.onload = function(){
-    infoThorku= document.getElementById("informa-thorku");
-    infoHaltar= document.getElementById("informa-haltar");
-    infoIcaro= document.getElementById("informa-icaro");
-    infoCleo= document.getElementById("informa-cleo");
-
     var thorku= document.getElementById("thorku");
     thorku.onclick= mostraThorku;
+
     var haltar= document.getElementById("haltar");
     haltar.onclick= mostraHaltar;
+
     var icaro= document.getElementById("icaro");
     icaro.onclick= mostraIcaro;
+
     var cleo= document.getElementById("cleo");
     cleo.onclick= mostraCleo;
-    
-    infoThorku.classList.add("escondido");
-    infoHaltar.classList.add("escondido");
-    infoIcaro.classList.add("escondido")
-    infoCleo.classList.add("escondido")
-};
+}
 
 function mostraThorku(){
-    infoThorku.classList.remove("escondido");
-    infoHaltar.classList.add("escondido");
-    infoIcaro.classList.add("escondido")
-    infoCleo.classList.add("escondido")
+    document.querySelector('.mostra-thorku').style.display= 'block';
+    document.querySelector('#thorku').style.display= 'none';
+    document.querySelector('#haltar').style.display= 'none';
+    document.querySelector('#icaro').style.display= 'none';
+    document.querySelector('#cleo').style.display= 'none';
+}
 
-    
-};
 function mostraHaltar(){
-    infoThorku.classList.add("escondido");
-    infoHaltar.classList.remove("escondido");
-    infoIcaro.classList.add("escondido");
-    infoCleo.classList.add("escondido");
-};
+    document.querySelector('.mostra-haltar').style.display= 'block';
+    document.querySelector('#thorku').style.display= 'none';
+    document.querySelector('#haltar').style.display= 'none';
+    document.querySelector('#icaro').style.display= 'none';
+    document.querySelector('#cleo').style.display= 'none';
+}
+
 function mostraIcaro(){
-    infoThorku.classList.add("escondido");
-    infoHaltar.classList.add("escondido");
-    infoIcaro.classList.remove("escondido");
-    infoCleo.classList.add("escondido");
-};
+    document.querySelector('.mostra-icaro').style.display= 'block';
+    document.querySelector('#thorku').style.display= 'none';
+    document.querySelector('#haltar').style.display= 'none';
+    document.querySelector('#icaro').style.display= 'none';
+    document.querySelector('#cleo').style.display= 'none';
+}
+
 function mostraCleo(){
-    infoThorku.classList.add("escondido");
-    infoHaltar.classList.add("escondido");
-    infoIcaro.classList.add("escondido");
-    infoCleo.classList.remove("escondido");
-};
+    document.querySelector('.mostra-cleo').style.display= 'block';
+    document.querySelector('#thorku').style.display= 'none';
+    document.querySelector('#haltar').style.display= 'none';
+    document.querySelector('#icaro').style.display= 'none';
+    document.querySelector('#cleo').style.display= 'none';
+
+    document.querySelector('footer').style.position= 'fixed';
+}
+
+document.addEventListener("DOMContentLoaded", function(event) {
+    document.querySelector('#fechar-thorku').addEventListener('click', function (e){
+        document.querySelector('.mostra-thorku').style.display= 'none'; 
+
+        document.querySelector('#thorku').style.display= 'block';
+        document.querySelector('#haltar').style.display= 'block';
+        document.querySelector('#icaro').style.display= 'block';
+        document.querySelector('#cleo').style.display= 'block';
+    })
+})
+
+document.addEventListener("DOMContentLoaded", function(event) {
+    document.querySelector('#fechar-haltar').addEventListener('click', function (e){
+        document.querySelector('.mostra-haltar').style.display= 'none';
+
+        document.querySelector('#thorku').style.display= 'block';
+        document.querySelector('#haltar').style.display= 'block';
+        document.querySelector('#icaro').style.display= 'block';
+        document.querySelector('#cleo').style.display= 'block';
+    })
+})
+
+document.addEventListener("DOMContentLoaded", function(event) {
+    document.querySelector('#fechar-icaro').addEventListener('click', function (e){
+        document.querySelector('.mostra-icaro').style.display= 'none';
+
+        document.querySelector('#thorku').style.display= 'block';
+        document.querySelector('#haltar').style.display= 'block';
+        document.querySelector('#icaro').style.display= 'block';
+        document.querySelector('#cleo').style.display= 'block';
+    })
+})
+        
+document.addEventListener("DOMContentLoaded", function(event) {
+    document.querySelector('#fechar-cleo').addEventListener('click', function (e){
+        document.querySelector('.mostra-cleo').style.display= 'none';
+
+        document.querySelector('#thorku').style.display= 'block';
+        document.querySelector('#haltar').style.display= 'block';
+        document.querySelector('#icaro').style.display= 'block';
+        document.querySelector('#cleo').style.display= 'block';
+    })
+})        

@@ -58,8 +58,9 @@ nav a:hover{/*rastreio de comportamento (hover=passar o mouse)*/
     text-transform: uppercase;
     color: #000000;
     font-weight: bold;
-    font-size: 32px;
+    font-size: 18px;
     text-decoration: none;
+    list-style-type: disc
 
 }
 .lista1 a:hover{/*rastreio de comportamento (hover=passar o mouse)*/

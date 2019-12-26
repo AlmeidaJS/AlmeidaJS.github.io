@@ -53,6 +53,18 @@ nav a:hover{/*rastreio de comportamento (hover=passar o mouse)*/
     color: #c78c19;
 }
 
+.lista1 a{
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 32px;
+    text-decoration: none;
+
+}
+.lista1 a:hover{/*rastreio de comportamento (hover=passar o mouse)*/
+    color: #c78c19;
+}
+
 /*Fim do cabeçalho*/
 
 .tudo{

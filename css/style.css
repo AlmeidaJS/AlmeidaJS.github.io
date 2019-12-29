@@ -151,7 +151,6 @@ ul.personagens{
 }
 
 .mostra-thorku {
-    position: re;
     top: 320px;
     left: 0;
     right: 0;
@@ -189,7 +188,6 @@ ul.personagens{
 
 
 .mostra-haltar {
-    position: absolute;
     top: 320px;
     left: 0;
     right: 0;
@@ -226,7 +224,6 @@ ul.personagens{
 }
 
 .mostra-icaro {
-    position: absolute;
     top: 320px;
     left: 0;
     right: 0;
@@ -263,7 +260,6 @@ ul.personagens{
 }
 
 .mostra-cleo {
-    position: absolute;
     top: 320px;
     left: 0;
     right: 0;

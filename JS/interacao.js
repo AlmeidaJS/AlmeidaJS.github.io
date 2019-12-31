@@ -18,8 +18,6 @@ function mostraThorku(){
     document.querySelector('#haltar').style.display= 'none';
     document.querySelector('#icaro').style.display= 'none';
     document.querySelector('#cleo').style.display= 'none';
-    
-    document.querySelector('footer').style.position= 'fixed';
 }
 
 function mostraHaltar(){
@@ -28,8 +26,6 @@ function mostraHaltar(){
     document.querySelector('#haltar').style.display= 'none';
     document.querySelector('#icaro').style.display= 'none';
     document.querySelector('#cleo').style.display= 'none';
-    
-    document.querySelector('footer').style.position= 'fixed';
 }
 
 function mostraIcaro(){
@@ -38,8 +34,13 @@ function mostraIcaro(){
     document.querySelector('#haltar').style.display= 'none';
     document.querySelector('#icaro').style.display= 'none';
     document.querySelector('#cleo').style.display= 'none';
-    
-    document.querySelector('footer').style.position= 'fixed';
+
+    var tdforarray = document.querySelectorAll(".tdfor");
+    for(i=0; i<tdforarray.lenght; i++){
+        if(tdforarray[i].textContent.lenth = 1){
+            tdforarray[i].textContent = "0"+tdforarray[i].textContent;
+        }
+    }   
 }
 
 function mostraCleo(){
@@ -49,7 +50,14 @@ function mostraCleo(){
     document.querySelector('#icaro').style.display= 'none';
     document.querySelector('#cleo').style.display= 'none';
 
-    document.querySelector('footer').style.position= 'fixed';
+    
+    var tdforarray = document.querySelectorAll(".tdfor");
+    for(i=0; i<tdforarray.lenght; i++){
+        if(tdforarray[i].textContent.lenth = 1){
+            tdforarray[i].textContent = "0"+tdforarray[i].textContent;
+        }
+    }
+
 }
 
 document.addEventListener("DOMContentLoaded", function(event) {

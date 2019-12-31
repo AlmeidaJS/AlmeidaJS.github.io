@@ -186,6 +186,9 @@ ul.personagens{
     margin: 0 0px 20px 0;
 }
 
+#thorku-img{
+    transform: scale(.8);
+}
 
 .mostra-haltar {
     top: 320px;
@@ -328,6 +331,31 @@ td {
     text-align: left;
     padding: 2% 30% 0% 0%;
     display: inline-block;
+}
+
+.combate {
+    position: relative;
+    bottom: 200px;
+    left: 555px;
+    width: 525px;
+    padding: 0px 0px 0px 0px;
+}
+
+.Save {
+    position: relative;
+    bottom: 225px;
+    left: 425px;
+}
+
+.Save li {
+    height: 20px;
+    display: unset;
+    padding: 0px;
+}
+
+.Save li #prof{
+    border: 2px 2px solid #c69c19;
+    color: #be280a;
 }
 
 form{

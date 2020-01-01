@@ -186,9 +186,6 @@ ul.personagens{
     margin: 0 0px 20px 0;
 }
 
-#thorku-img{
-    transform: scale(.8);
-}
 
 .mostra-haltar {
     top: 320px;
@@ -320,11 +317,27 @@ th {
 }
 
 .thfor {
-    padding: 3% 9% 0% 13%;
+    padding: 3% 7% 0% 13%;
 }
 
 .thdes {
+    padding: 3% 7% 0% 13%;
+}
+
+.thcon{
+    padding: 3% 7% 0% 13%;
+}
+
+.thint{
     padding: 3% 9% 0% 13%;
+}
+
+.thsab{
+    padding: 3% 7% 0% 13%;
+}
+
+.thcar{
+    padding: 3% 7% 0% 13%;
 }
 
 td {
